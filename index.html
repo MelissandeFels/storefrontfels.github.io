@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>category-page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <!--Navbar on top-->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler d-sm-flex d-lg-none reverse" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="width: 30px; height: 30px;"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="media/logo.png" alt="logo-hero"></a>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <div class="text-nav">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" href="#">SHOP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">JOURNAL</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" href="#">MORE</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-auto">
+                <button type="button" class="pay dropdown-toggle" id="dropdownText" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    MY CART (2)
+                </button>
+                <button class="button-shop dropdown-toggler d-sm-flex d-lg-none" type="button" data-bs-toggle="dropdown"
+                    data-bs-target="#dropdownText" aria-controls="dropdownText" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="d-flex" style="width:33px;height:20px;">
+                        <!--Icon on Bootstrap-->
+                        <svg id="i-bag" xmlns="http://www.w3.org/2000/svg" viewBox="5 0 32 30" width="32" height="20"
+                            fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path d="M5 9 L5 29 27 29 27 9 Z M10 9 C10 9 10 3 16 3 22 3 22 9 22 9" />
+                        </svg>
+                        <a class="two-product">(2)</a>
+                    </span>
+                </button>
+                <!--Modal display on click-->
+                <div class="block rounded-0 p-2 col-md-3 position-absolute dropdown-menu dropdown-menu-end"
+                    aria-labelledby="dropdownText">
+                    <div class="pt-2 pb-2 position-relative">
+                        <div class="col d-flex">
+                            <div class="m-2">
+                                <img src="media/hand-painted-blue-flat-dish.jpg" alt="product" class="img">
+                            </div>
+                            <div class="small-descript pr-1 m-2">
+                                <p class="small-product">
+                                    HAND PAINTED BLUE FLAT DISH
+                                    <span class="one" id="one">
+                                        x 1
+                                    </span>
+                                </p>
+                                <p class="small-name">KIRIKO</p>
+                                <p class="small-price">$28.00</p>
+                            </div>
+                            <div class="small-contain-cross mt-2">
+                                <img src="media/thin-cross.png" alt="" width="25" class="small-cross-del">
+                            </div>
+                        </div>
+                        <div class="col d-flex mt-3">
+                            <div class="m-2">
+                                <img src="media/mashiko-yaki-indigo-small-plate.jpg" alt="product" class="img">
+                            </div>
+                            <div class="small-descript pr-1 m-2">
+                                <p class="small-product">
+                                    MASHIKO-YAKI INDIGO SMALL PLATE
+                                    <span class="one" id="one">
+                                        x 1
+                                    </span>
+                                </p>
+                                <p class="small-name">KIRIKO</p>
+                                <p class="small-price">$28.00</p>
+                            </div>
+                            <div class="small-contain-cross mt-2">
+                                <img src="media/thin-cross.png" alt="" width="25" class="small-cross-del">
+                            </div>
+                        </div>
+                        <hr class="small-line m-2 rounded">
+                        <div class="col d-flex m-2">
+                            <div class="total-small col">
+                                TOTAL
+                            </div>
+                            <div class="price-small col text-end">
+                                $56.00
+                            </div>
+                        </div>
+                        <div class="col d-flex pt-2 m-2 justify-content-center">
+                            <button class="btn-view" type="button">
+                                <a href="shopping-cart.html" target="_blank"
+                                    style="text-decoration: none;color: black;">
+                                    VIEW CART
+                                </a>
+                            </button>
+                            <button class="btn-checkout" type="button">
+                                <a href="#" target="_blank" style="text-decoration: none;color: white;">
+                                    CHECKOUT
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--Banner and text on top-->
+    <div class="jumbotron text-center img-banner">
+        <div class="container col-10">
+            <div class="row justify-content-md-center">
+                <div class="black-block col-md-8 mx-auto bg-dark text-white">
+                    <h1 class="text-h1 mt-5 pt-5">Plates</h1>
+                    <hr class="line rounded mb-3 d-none d-lg-flex">
+                    <p class="text-lorem m-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Sed
+                        non risus. Suspendisse lectus
+                        tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+                        Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue,
+                        euismod non,
+                        mi.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Content-->
+    <div class="container pt-5 col-md-8">
+        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+        <div class="row">
+            <div class="col-6 col-md-4 text-center pt-3">
+                <div class="image-effect">
+                    <img src="media/blue-stripe-stoneware-plate.jpg" class="img-fluid" alt="plate">
+                    <div class="img-overlay d-md-block">
+                        <div class="d-grid gap-4 col-md-8 mx-auto m-5">
+                            <button class="view-details" type="button">
+                                <a href="#" target="_blank" style="text-decoration:none;color:white;">
+                                    VIEW DETAILS
+                                </a>
+                            </button>
+                            <button class="add-to-cart" type="button">
+                                <a href="#" target="_blank" style="text-decoration:none;color:white;">
+                                    ADD TO CART
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <p class="title-product pt-2">Kiriko</p>
+                <p><span class="descript">BLUE STRIPE STONEWARE PLATE</span></p>
+                <p><span class="price">$40.00</span></p>
+            </div>
+            <div class="col-6 col-md-4 text-center pt-3">
+                <div class="image-effect">
+                    <img src="media/hand-painted-blue-flat-dish.jpg" class="img-fluid" alt="plate">
+                    <div class="img-overlay d-md-block">
+                        <div class="d-grid gap-4 col-md-8 mx-auto m-5">
+                            <button class="view-details" type="button">
+                                <a href="hand-painted.html" target="_blank" style="text-decoration:none;color:white;">
+                                    VIEW DETAILS
+                                </a>
+                            </button>
+                            <button class="add-to-cart" type="button">
+                                <a href="shopping-cart.html" target="_blank" style="text-decoration:none;color:white;">
+                                    ADD TO CART
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <p class="title-product pt-2">Kiriko</p>
+                <p><span class="descript">HAND PAINTED BLUE FLAT DISH</span></p>
+                <p><span class="price">$28.00</span></p>
+            </div>
+            <div class="col-6 col-md-4 text-center pt-3">
+                <div class="image-effect">
+                    <img src="media/heme.jpg" class="img-fluid" alt="plate">
+                    <div class="img-overlay d-md-block">
+                        <div class="d-grid gap-4 col-md-8 mx-auto m-5">
+                            <button class="view-details" type="button">
+                                <a href="#" target="_blank" style="text-decoration:none;color:white;">
+                                    VIEW DETAILS
+                                </a>
+                            </button>
+                            <button class="add-to-cart" type="button">
+                                <a href="#" target="_blank" style="text-decoration:none;color:white;">
+                                    ADD TO CART
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <p class="title-product pt-2">Dust & Form</p>
+                <p><span class="descript">HEME</span></p>
+                <p><span class="price">$52.00</span></p>
+            </div>
+            <div class="col-6 col-md-4 text-center pt-3">
+                <div class="image-effect">
+                    <img src="media/mashiko-yaki-green-small-plate.jpg" class="img-fluid" alt="plate">
+                    <div class="img-overlay d-md-block">
+                        <div class="d-grid gap-4 col-md-8 mx-auto m-5">
+                            <button class="view-details" type="button">
+                                <a href="#" target="_blank" style="text-decoration:none;color:white;">
+                                    VIEW DETAILS
+                                </a>
+                            </button>
+                            <button class="add-to-cart" type="button">
+                                <a href="#" target="_blank" style="text-decoration:none;color:white;">
+                                    ADD TO CART
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <p class="title-product pt-2">Kiriko</p>
+                <p><span class="descript">MASHIKO-YAKI GREEN SMALL PLATE</span></p>
+                <p><span class="price">$18.00</span></p>
+            </div>
+            <div class="col-6 col-md-4 text-center pt-3">
+                <div class="image-effect">
+                    <img src="media/mashiko-yaki-indigo-small-plate.jpg" class="img-fluid" alt="plate">
+                    <div class="img-overlay d-md-block">
+                        <div class="d-grid gap-4 col-md-8 mx-auto m-5">
+                            <button class="view-details" type="button">
+                                <a href="#" target="_blank" style="text-decoration:none;color:white;">
+                                    VIEW DETAILS
+                                </a>
+                            </button>
+                            <button class="add-to-cart" type="button">
+                                <a href="#" target="_blank" style="text-decoration:none;color:white;">
+                                    ADD TO CART
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <p class="title-product pt-2">Kiriko</p>
+                <p><span class="descript">MASHIKO-YAKI INDIGO SMALL PLATE</span</p> <p class="text_img"><span
+                            class="price">$28.00</span></p>
+            </div>
+            <div class="col-6 col-md-4 text-center pt-3">
+                <div class="image-effect">
+                    <img src="media/mashiko-yaki-saucer.jpg" class="img-fluid" alt="plate">
+                    <div class="img-overlay d-md-block">
+                        <div class="d-grid gap-4 col-md-8 mx-auto m-5">
+                            <button class="view-details" type="button">
+                                <a href="#" target="_blank" style="text-decoration:none;color:white;">
+                                    VIEW DETAILS
+                                </a>
+                            </button>
+                            <button class="add-to-cart" type="button">
+                                <a href="#" target="_blank" style="text-decoration:none;color:white;">
+                                    ADD TO CART
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <p class="title-product pt-2">Kiriko</p>
+                <p><span class="descript">MASHIKO-YAKI SAUCER</span></p>
+                <p><span class="price">$18.00</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!--animation SCRIPT-->
+    <script type="text/javascript">
+        $('.collapse').collapse();
+    </script>
+</body>
+
+</html>

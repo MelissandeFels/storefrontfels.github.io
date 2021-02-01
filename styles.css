@@ -1,0 +1,271 @@
+/*General*/
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*Navbar*/
+li {
+    padding-right: 6%;
+}
+
+.navbar-nav {
+    padding-left: 0;
+    margin-left: 30%;
+}
+
+.nav-item .nav-link {
+    color: rgb(27, 26, 26);
+}
+
+.navbar-toggler-icon {
+    background-image: url(https://cdn2.iconfinder.com/data/icons/4web-3/139/menu-512.png);
+}
+
+.text-nav {
+    width: 100%;
+    color: rgb(27, 26, 26);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pay {
+    color: rgb(27, 26, 26);
+    text-decoration: none;
+    font-weight: bold;
+    border:0;
+    background-color: white;
+}
+
+.pay:hover {
+    color: #666666;
+}
+
+/**For Media Query**not show on desktop**/
+.two-product {
+    display: none;
+}
+
+.button-shop {
+    border:0;
+    background-color: white;
+}
+
+/*Modal for button (2) with lock*/
+.block {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.small-descript {
+    width: 100%;
+}
+
+.small-product {
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    margin-bottom: 1px;
+}
+
+span.one {
+    color: rgb(138, 138, 138);
+    font-weight: 400;
+    padding-left: 5px;
+    font-size: 10px;
+}
+
+.small-name {
+    color: #b4b4b4;
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+
+.small-price {
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+
+.small-contain-cross {
+    width: 30px;
+    height: 30px;
+}
+
+.small-cross-del {
+    width: 10px;
+    height: 10px;
+}
+
+.small-line {
+    color: gray;
+}
+
+.total-small,
+.price-small {
+    color: #aaaaaa;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    font-weight: 500;
+}
+
+.btn-view,
+.btn-checkout {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.btn-view:hover,
+.btn-checkout:hover {
+    box-shadow: 2px 4px 10px rgb(253, 253, 253), 0 0 3px rgb(28, 217, 250), 0 0 5px rgb(100, 233, 243);
+    border: none;
+}
+
+.btn-view {
+    background-color: white;
+    margin-right: 10px;
+}
+
+.btn-checkout {
+    color: white;
+    background-color: black;
+}
+
+/*Banner*/
+.img-banner {
+    background-image: url(media/plates-header.jpg);
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.black-block {
+    height: 350px;
+    border-right: 5px solid white;
+    border-left: 5px solid white;
+}
+
+.text-h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.line {
+    margin: auto;
+    width: 13%;
+}
+
+.text-lorem {
+    font-size: 0.9rem;
+}
+
+/*Content*/
+.title-product {
+    color: #888787;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.descript {
+    margin-bottom: 0;
+}
+
+.price {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #979797;
+    font-weight: 600;
+}
+
+.image-effect {
+    position: relative;
+    width: 100%;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(253, 253, 253, 0.6);
+    opacity: 0;
+    transition: opacity 0.30s;
+}
+
+.img-overlay:hover {
+    opacity: 1;
+}
+
+.view-details {
+    font-size: 1vw;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: rgb(27, 26, 26);
+    color: #f4f7f7;
+    border: none;
+    padding: 10px 20%;
+
+}
+
+.view-details:hover {
+    opacity: 0.6;
+}
+
+.add-to-cart {
+    font-size: 1vw;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: #414040;
+    color: #f4f7f7;
+    border: none;
+    padding: 10px 20%;
+
+}
+
+.add-to-cart:hover {
+    opacity: 0.6;
+}
+
+/*Media Query*/
+@media only screen and (max-width: 990px) {
+
+    li {
+        padding-right: 0px;
+    }
+
+    .text-nav {
+        background-color: white;
+    }
+
+    .pay {
+        display: none;
+    }
+
+    .two-product {
+        text-decoration: none;
+        color: rgb(27, 26, 26);
+        display: flex;
+        font-size: 11px;
+        font-weight: bold;
+        border-bottom: 1px solid rgb(27, 26, 26);
+    }
+
+}
