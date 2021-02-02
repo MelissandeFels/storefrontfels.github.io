@@ -1,7 +1,7 @@
 # storefrontfels.github.io
 Réalisation du Pixel Perfect HTML et CSS
 
-<h2>Objectif : Réaliser un template en HTML et CSS</h2>
+<h3>Objectif : Réaliser un template en HTML et CSS</h3>
 
 L'outil choisi : <strong>Bootstrap v5.0</strong>
 
