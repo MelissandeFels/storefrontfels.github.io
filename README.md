@@ -24,12 +24,12 @@ Page "Home" (index.html) :
 - boutons "<em>View details</em>" + "<em>Add cart</em>" sur la première image du milieu "Hand painted blue flat dish" renvoie sur la page "hand-painted" et la page "shopping-cart"
 - boutons "<em>View cart</em>" en haut à droite de l'écran, sur le dropdown "<em>My cart (2)</em>" renvoie sur la page "shopping-cart"
 
-Page produit "Hand painted bue flat dish" :
+Page produit "Hand painted blue flat dish" :
 - bouton "<em>Home</em>" renvoie sur la page d'accueil
 - boutons "<em>View cart</em>" en haut à droite de l'écran, sur le dropdown "<em>My cart (2)</em>" renvoie sur "shopping-cart"
 - bouton "<em>Add to cart</em>" de la page renvoie sur "shopping-cart"
 
-Page "Shooping cart" :
+Page "Shopping cart" :
 - bouton "<em>Continue shopping</em>" renvoie sur la page d'accueil 
 - bouton "<em>Home</em>" renvoie sur la page d'accueil
 
