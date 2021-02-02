@@ -18,7 +18,7 @@ Vous remarquerez que ce répertoire possède un dossier "screens" qui contient l
 En résumé, ce site n'est pas complet est consiste en la validation de compétences en projets de formation Développement Web.
 
 Lien vers mon site (sous Github) : https://melissandefels.github.io/storefrontfels.github.io/index.html
-<br>Chemin des boutons/liens sur mes pages afin de permettre une facilité de navigation (le sit n'étant pas complet) :
+<br>Chemin des boutons/liens sur mes pages afin de permettre une facilité de navigation (le site n'étant pas complet) :
 
 Page "Home" (index.html) :
 - boutons "<em>View details</em>" + "<em>Add cart</em>" sur la première image du milieu "Hand painted blue flat dish" renvoie sur la page "hand-painted" et la page "shopping-cart"
