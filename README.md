@@ -17,4 +17,21 @@ J'utilise aussi du Média Query dans mes pages. En effet, il y a certaines fonct
 Vous remarquerez que ce répertoire possède un dossier "screens" qui contient les pages du template à réaliser. Mes pages HTML sont donc, créées à partir de ces screens et que, par conséquent, l'intégration intégrale des pages web du site n'est pas effectuée.
 En résumé, ce site n'est pas complet est consiste en la validation de compétences en projets de formation Développement Web.
 
+Lien vers mon site (sous Github) : https://melissandefels.github.io/storefrontfels.github.io/index.html
+Chemin des boutons/liens sur mes pages afin de permettre une facilité de navigation (le sit n'étant pas complet) :
+
+Page "Home" (index.html) :
+- boutons "<em>View details</em>" + "<em>Add cart</em>" sur la première image du milieu "Hand painted blue flat dish" renvoie sur la page "hand-painted" et la page "shopping-cart"
+- boutons "<em>View cart</em>" en haut à droite de l'écran, sur le dropdown "<em>My cart (2)</em>" renvoie sur la page "shopping-cart"
+
+Page produit "Hand painted bue flat dish" :
+- bouton "<em>Home</em>" renvoie sur la page d'accueil
+- boutons "<em>View cart</em>" en haut à droite de l'écran, sur le dropdown "<em>My cart (2)</em>" renvoie sur "shopping-cart"
+- bouton "<em>Add to cart</em>" de la page renvoie sur "shopping-cart"
+
+Page "Shooping cart" :
+- bouton "<em>Continue shopping</em>" renvoie sur la page d'accueil 
+- bouton "<em>Home</em>" renvoie sur la page d'accueil
+
+
 Merci de votre attention. 
